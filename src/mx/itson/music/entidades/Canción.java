@@ -54,4 +54,8 @@ public class Canción
     private int duracion;
     
     private int orden;
+    
+         public String toString() {
+        return "Canción: " + nombre + "\nduracion: " + duracion + "\norden: " + orden;
+    }
 }

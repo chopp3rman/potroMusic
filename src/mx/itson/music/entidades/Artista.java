@@ -54,4 +54,8 @@ public class Artista
     private String descripcion;
     
     private String sitioWeb;
+    
+     public String toString() {
+        return "Artista: " + nombre + "\nDescripción: " + descripcion + "\nSitio web: " + sitioWeb;
+    }
 }

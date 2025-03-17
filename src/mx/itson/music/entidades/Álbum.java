@@ -89,4 +89,8 @@ public class Álbum
     private List<Canción> canción;
     
     private Género género;
+    
+        public String toString() {
+        return "Álbum: " + nombre + "\nlanzamiento: " + lanzamiento + "\nGénero: " + género;
+        }
 }
